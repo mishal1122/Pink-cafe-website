@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pink Cafe � Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+   
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: brightness(0.6);
+      padding: 40px 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card .info {
+      padding: 15px;
+      text-align: center;
+      color: #fffde7;
+    }
+
+    .card .info h3 {
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+
+    .welcome {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 40px 30px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      animation: fadeInUp 1.2s ease;
+    }
+
+    .welcome h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      color: #ffe0e0;
+      margin-bottom: 20px;
+    }
+
+    .welcome p {
+      line-height: 1.8;
+      font-size: 1.15rem;
+      color: #ffebee;
+      margin-bottom: 20px;
+    }
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: url('ca.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #eee;
+      position: relative;
+    }
+
+  
+    @media (max-width: 600px) {
+      nav a {
+        margin: 0 8px;
+        font-size: 0.95rem;
+      }
+      .card .info h3 {
+        font-size: 1rem;
+      }
+      .welcome h2 {
+        font-size: 1.7rem;
+      }
+      .welcome p {
+        font-size: 1rem;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+     
+    }
+  </style>
+</head>
+<body>
+
+<header style="display: flex; align-items: center; justify-content: center;">
+  <h1 style="margin: 0; margin-right: 15px;">Pink Cafe</h1>
+  <img src="logo 3.png" alt="Logo" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+</header>
+
+
+
+  <nav class="navbar">
+    <a href="pinkcafe.html" class="active">Pinkcafe</a>
+    <a href="menu.html">Menu</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="events.html">Events</a>
+    <a href="catering.html">Catering</a>
+    <a href="career.html">Career</a>
+    <a href="shop.html">Shop</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="faqs.html">FAQs</a>
+  </nav>
+
+  <section class="hero">
+    <div class="gallery">
+      <div class="card">
+        <img src="p.jpeg" alt="Espresso Shot" />
+        <div class="info">
+          <h3>Where every corner whispers comfort</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="i.jpeg" alt="Cappuccino" />
+        <div class="info">
+          <h3>Fresh blooms, fresh vibes</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="28.jpeg" alt="Green Tea" />
+        <div class="info">
+          <h3>Sweet moments, beautifully crafted</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="k.jpeg" alt="Pastry Selection" />
+        <div class="info">
+          <h3>Inspired by the art of cozy spaces</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="welcome">
+    <h2>Welcome to Pink Cafe</h2>
+    <p>
+      Nestled in the heart of the city, Pink Cafe is a cozy haven where coffee meets creativity. Whether you�re looking to sip a signature rose latte, share stories over a slice of cake, or simply bask in the soft glow of our pastel walls, you�ve found your place.
+    </p>
+    <p>
+      We believe every cup tells a story. That�s why we brew with care, bake with love, and serve with a smile. Join us for live music evenings, local artist showcases, or a quiet moment of inspiration. Welcome to a space where community and comfort come together � welcome to Pink Cafe.
+    </p>
+  </section>
+
+  <footer>
+    <p>� 2025 Pink Cafe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+

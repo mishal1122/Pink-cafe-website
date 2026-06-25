@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Shop – Pink Cafe</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+    
+    .content {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .shop-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .item-card {
+      flex: 0 1 calc(25% - 15px);
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .item-card:nth-child(even) {
+      background-color: #ffeef8;
+    }
+    .item-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .item-card h4 {
+      margin: 15px 0 5px;
+      font-family: 'Playfair Display', serif;
+      color: #a24e6f;
+    }
+    .item-card p {
+      font-size: 0.95rem;
+    }
+    .price {
+      color: #cc6688;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 900px) {
+      .item-card {
+        flex: 0 1 calc(50% - 15px);
+      }
+    }
+    @media (max-width: 600px) {
+      .item-card {
+        flex: 0 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Pink Cafe</h1> <img src="logo 3.png" alt="Logo"></header>
+   <nav class="navbar">
+    <a href="pinkcafe.html" class="active">Pinkcafe</a>
+    <a href="menu.html" class="active">Menu</a>
+    <a href="aboutus.html" class="active">About Us</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="blog.html" class="active">Blog</a>
+    <a href="events.html"class="active">Events</a>
+    <a href="catering.html" class="active">Catering</a>
+    <a href="career.html"class="active">Career</a>
+    <a href="shop.html"class="active">Shop</a>
+    <a href="reviews.html"class="active">Reviews</a>
+    <a href="faqs.html"class="active">FAQs</a>
+
+  </nav>
+  <div class="content">
+    <h2 style="font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #cc6688; text-align: center; margin-bottom: 30px;">Pink Cafe Shop</h2>
+    <p style="text-align: center; max-width: 700px; margin: 0 auto 40px; font-size: 1.05rem; line-height: 1.6;">
+      Bring the charm of Pink Cafe into your everyday! Our exclusive collection is designed for cozy mornings, thoughtful gifting, and coffee lovers at heart.
+    </p>
+
+    <div class="shop-row">
+      <div class="item-card">
+        <img src="mugs.jpg" alt="Pink Cafe Mug">
+        <h4>Signature Mug</h4>
+        <p>Our best-selling blush ceramic mug with gold foil logo. Microwave-safe & adorable.</p>
+        <div class="price">1500 RS</div>
+      </div>
+      <div class="item-card">
+        <img src="beans.jpg" alt="Artisan Beans">
+        <h4>Artisan Beans</h4>
+        <p>Freshly roasted in-house with hints of caramel & vanilla. 250g resealable pack.</p>
+        <div class="price">500 RS</div>
+      </div>
+      <div class="item-card">
+        <img src="tote.jpg" alt="Tote Bag">
+        <h4>Tote Bag</h4>
+        <p>Canvas tote with embroidered Pink Cafe charm. Perfect for books, brunch, or beans!</p>
+        <div class="price">800 RS</div>
+      </div>
+      <div class="item-card">
+        <img src="pack.jpg" alt="Gift Box">
+        <h4>Gift Box</h4>
+        <p>Includes mug, beans, & a handwritten note in a pastel box. Wrapped with love!</p>
+        <div class="price">2000 RS</div>
+      </div>
+    </div>
+
+    <div class="shop-row">
+      <div class="item-card">
+        <img src="blanket.jpg" alt="Throw Blanket">
+        <h4>Cozy Throw Blanket</h4>
+        <p>Soft, pastel pink fleece blanket perfect for chilly mornings and cozy moments at home.</p>
+        <div class="price">2500 RS</div>
+      </div>
+      <div class="item-card">
+        <img src="candles.jpg" alt="Scented Candle">
+        <h4>Scented Candle</h4>
+        <p>Hand-poured soy wax candle with notes of rose, vanilla, and warm amber—perfect for a calming ambiance.</p>
+        <div class="price">1200 RS</div>
+      </div>
+      <div class="item-card">
+        <img src="reciepe.jpg" alt="Recipe Book">
+        <h4>Recipe Book</h4>
+        <p>Our favorite cafe recipes, from signature drinks to delicious pastries, curated for you to try at home.</p>
+        <div class="price">900 RS</div>
+      </div>
+      <div class="item-card">
+        <img src="pins.jpg" alt="Enamel Pin">
+        <h4>Enamel Pin</h4>
+        <p>A cute collectible enamel pin featuring our signature pink heart logo—perfect for jackets, bags, or hats.</p>
+        <div class="price">400 RS</div>
+      </div>
+    </div>
+    <div style="text-align: center; margin: 40px 0;">
+      <a href="order.html" style="background-color: #cc6688; color: white; padding: 12px 28px; font-size: 1.1rem; text-decoration: none; border-radius: 8px; font-family: 'Quicksand', sans-serif;">Order Now</a>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Pink Café. Crafted with love and coffee.</p>
+  </footer>
+</body>
+</html>

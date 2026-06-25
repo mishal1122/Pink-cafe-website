@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Gallery � Pink Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    
+    @media(max-width:600px) {
+      .gallery-item img { height: 150px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pink Cafe</h1> <img src="logo 3.png" alt="Logo">
+  </header>
+
+    <nav class="navbar">
+    <a href="pinkcafe.html" class="active">Pinkcafe</a>
+    <a href="menu.html" class="active">Menu</a>
+    <a href="aboutus.html" class="active">About Us</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="blog.html" class="active">Blog</a>
+    <a href="events.html"class="active">Events</a>
+    <a href="catering.html" class="active">Catering</a>
+    <a href="career.html"class="active">Career</a>
+    <a href="shop.html"class="active">Shop</a>
+    <a href="reviews.html"class="active">Reviews</a>
+    <a href="faqs.html"class="active">FAQs</a>
+
+  </nav>
+
+  <div class="content">
+    <h2 style="font-family:'Playfair Display',serif; color:#a24e6f; font-size:2rem; text-align:center; margin-bottom:30px;">
+      Photo Gallery
+    </h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="20.jpeg" alt="Cafe Interior" />
+      </div>
+      <div class="gallery-item">
+        <img src="21.jpeg" alt="Latte Art" />
+      </div>
+      <div class="gallery-item">
+        <img src="22.jpeg" alt="Pastries Display" />
+      </div>
+      <div class="gallery-item">
+        <img src="23.jpeg" alt="Outdoor Seating" />
+      </div>
+      <div class="gallery-item">
+        <img src="24.jpeg" alt="Poetry Night" />
+      </div>
+      <div class="gallery-item">
+        <img src="25.jpeg" alt="Catering Setup" />
+      </div>
+ <div class="gallery-item">
+        <img src="261.jpeg" alt="Catering Setup" />
+      </div>
+ <div class="gallery-item">
+        <img src="27.jpeg" alt="Catering Setup" />
+      </div>
+ <div class="gallery-item">
+        <img src="28.jpeg" alt="Catering Setup" />
+      </div>
+      <div class="gallery-item">
+        <img src="29.jpeg" alt="Vintage Decor" />
+      </div>
+      <div class="gallery-item">
+        <img src="261.jpeg" alt="Community Event" />
+      </div>
+  <div class="gallery-item">
+        <img src="31.jpeg" alt="Community Event" />
+      </div>
+  <div class="gallery-item">
+        <img src="32.jpeg" alt="Community Event" />
+      </div>
+  <div class="gallery-item">
+        <img src="33.jpeg" alt="Community Event" />
+      </div>
+ 
+<div class="gallery-item">
+        <img src="p.jpeg" alt="Community Event" />
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>� 2025 Pink Cafe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

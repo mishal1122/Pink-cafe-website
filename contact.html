@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Contact Us � Pink Cafe</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+  
+    .content {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .content h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #a24e6f;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .info-block {
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .info-block p {
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact-form label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background-color: #a24e6f;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-top: 10px;
+    }
+    .contact-form button:hover {
+      background-color: #cc6688;
+    }
+
+    @media(max-width:600px) {
+      .content { padding: 0 10px; }
+      .content h2 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pink Cafe</h1> <img src="logo 3.png" alt="Logo">
+  </header>
+
+  <nav class="navbar">
+    <a href="pinkcafe.html" class="active">Pinkcafe</a>
+    <a href="menu.html" class="active">Menu</a>
+    <a href="aboutus.html" class="active">About Us</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="blog.html" class="active">Blog</a>
+    <a href="events.html"class="active">Events</a>
+    <a href="catering.html" class="active">Catering</a>
+    <a href="career.html"class="active">Career</a>
+    <a href="shop.html"class="active">Shop</a>
+    <a href="reviews.html"class="active">Reviews</a>
+    <a href="faqs.html"class="active">FAQs</a>
+
+  </nav>
+
+  <div class="content">
+    <h2>Get in Touch</h2>
+
+    <div class="info-block">
+      <p><strong>Address:</strong>I8 Markaz, Islamabad, Pakistan</p>
+      <p><strong>Phone:</strong> +92 300 1234567</p>
+      <p><strong>Email:</strong> <a href="mailto:hello@pinkcafe.com" style="color: #a24e6f; text-decoration: none;">hello@pinkcafe.com</a></p>
+      <p><strong>Follow Us:</strong> 
+        <a href="#" style="color: #a24e6f; text-decoration: none;">Instagram</a> | 
+        <a href="#" style="color: #a24e6f; text-decoration: none;">Facebook</a> | 
+        <a href="#" style="color: #a24e6f; text-decoration: none;">Twitter</a>
+      </p>
+    </div>
+
+    <h2>Send Us a Message</h2>
+    <form class="contact-form" action="#" method="POST">
+      <div>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+      <div>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>� 2025 Pink Cafe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

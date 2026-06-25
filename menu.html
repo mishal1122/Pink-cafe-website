@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Menu � Pink Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+  
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .menu-section {
+      margin-bottom: 40px;
+    }
+    .menu-section h2 {
+      font-family: 'Playfair Display', serif;
+      color: #a24e6f;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .item-card {
+      background-color: #fff0f5;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .item-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    .item-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: #4b3832;
+      margin-bottom: 8px;
+    }
+    .item-card p {
+      font-size: 0.95rem;
+      color: #4b3832;
+      line-height: 1.4;
+      margin-bottom: 8px;
+    }
+    .item-card span {
+      display: block;
+      font-weight: bold;
+      color: #cc6688;
+      margin-top: 8px;
+    }
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #f9f3e7;
+      color: #4b3832;
+    }
+
+
+    @media(max-width:600px) {
+      .item-card img { height: 150px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pink Cafe</h1>
+     <img src="logo 3.png" alt="Logo">
+  </header>
+
+  <nav class="navbar">
+    <a href="pinkcafe.html" >Pinkcafe</a>
+    <a href="menu.html" class="active">Menu</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html" >Blog</a>
+    <a href="events.html">Events</a>
+    <a href="catering.html" >Catering</a>
+    <a href="career.html">Career</a>
+    <a href="shop.html">Shop</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="faqs.html">FAQs</a>
+
+  </nav>
+  <div class="content">
+    <!-- Coffee & Tea Section -->
+    <section class="menu-section">
+      <h2>Coffee & Tea</h2>
+      <div class="items-grid">
+        <div class="item-card">
+          <img src="3.jpeg" alt="Classic Espresso" />
+          <h3>Classic Espresso</h3>
+          <p>Rich, velvety single shot of our signature roast.</p>
+          <span>250 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="6.jpeg" alt="Fluffy Cappuccino" />
+          <h3>Fluffy Cappuccino</h3>
+          <p>Smooth espresso topped with steamed milk foam.</p>
+          <span>350 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="4.jpeg" alt="Rose Latte" />
+          <h3>Rose Latte</h3>
+          <p>A delightful blend of rose syrup and steamed milk.</p>
+          <span>400 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="1.jpeg" alt="Matcha Green Tea" />
+          <h3>Matcha Green Tea</h3>
+          <p>Ceremonial-grade matcha whisked into creamy milk.</p>
+          <span>300 Rs</span>
+        </div>
+        <!-- Two New Coffee & Tea Items -->
+        <div class="item-card">
+          <img src="2.jpeg" alt="Iced Coffee" />
+          <h3>Iced Coffee</h3>
+          <p>Chilled cold brew served over ice with a splash of milk.</p>
+          <span>300 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="5.jpeg" alt="Chocolate Mocha" />
+          <h3>Chocolate Mocha</h3>
+          <p>Rich hot chocolate blended with espresso and topped with whipped cream.</p>
+          <span>420 Rs</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pastries & Sweets Section -->
+    <section class="menu-section">
+      <h2>Pastries & Sweets</h2>
+      <div class="items-grid">
+        <div class="item-card">
+          <img src="10.jpeg" alt="Buttery Croissant" />
+          <h3>Buttery Croissant</h3>
+          <p>Flaky, golden-brown pastry served warm.</p>
+          <span>200 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="12.jpeg" alt="Assorted Macarons" />
+          <h3>Assorted Macarons</h3>
+          <p>Three pastel-colored macarons: rose, pistachio, and vanilla.</p>
+          <span>250 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="7.jpeg" alt="Berry Muffin" />
+          <h3>Berry Muffin</h3>
+          <p>Brimming with fresh berries and crumb topping.</p>
+          <span>180 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="9.jpeg" alt="Carrot Cake Slice" />
+          <h3>Carrot Cake Slice</h3>
+          <p>Moist carrot cake with cream cheese frosting.</p>
+          <span>300 Rs</span>
+        </div>
+        <!-- Two New Pastries & Sweets Items -->
+        <div class="item-card">
+          <img src="11.jpeg" alt="Classic Cheesecake" />
+          <h3>Classic Cheesecake</h3>
+          <p>Creamy New York�style cheesecake with a graham cracker crust.</p>
+          <span>350 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="8.jpeg" alt="Chocolate Fudge Brownie" />
+          <h3>Chocolate Fudge Brownie</h3>
+          <p>Dense, gooey brownie topped with chocolate ganache.</p>
+          <span>220 Rs</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Specialties Section -->
+    <section class="menu-section">
+      <h2>Signature Specialties</h2>
+      <div class="items-grid">
+        <div class="item-card">
+          <img src="13.jpeg" alt="Latte Art Creations" />
+          <h3>Latte Art Creations</h3>
+          <p>Customized latte art (ask our barista to surprise you!).</p>
+          <span>450 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="14.jpeg" alt="Gluten-Free Treats" />
+          <h3>Gluten-Free Treats</h3>
+          <p>Daily rotating selection of gluten-free goodies.</p>
+          <span>250 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="17.jpeg" alt="Vegan Cake Slice" />
+          <h3>Vegan Cake Slice</h3>
+          <p>Creamy dairy-free cake with seasonal fruit compote.</p>
+          <span>350 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="15.jpeg" alt="Spiced Chai" />
+          <h3>Spiced Chai</h3>
+          <p>Warm masala chai with house spices and honey.</p>
+          <span>250 Rs</span>
+        </div>
+        <!-- Two New Signature Specialties Items -->
+        <div class="item-card">
+          <img src="16.jpeg" alt="Affogato" />
+          <h3>Affogato</h3>
+          <p>Vanilla gelato drowned in a hot shot of espresso.</p>
+          <span>380 Rs</span>
+        </div>
+        <div class="item-card">
+          <img src="18.jpeg" alt="Gluten-Free Brownie" />
+          <h3>Strawberry Cream Puff</h3>
+          <p>Light choux pastry filled with vanilla cream and topped with fresh strawberries.</p>
+          <span>300 Rs</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>� 2025 Pink Cafe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
